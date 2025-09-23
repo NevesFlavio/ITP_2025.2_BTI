@@ -1,0 +1,9 @@
+O programa criará uma sequência numérica estilo pirâmide, mas com linhas de numeração decrescente. 
+Exemplo
+n = 5
+
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1

@@ -1,0 +1,10 @@
+Na tela, irá aparecer uma sequência numérica.
+O primeiro for fará aparecer cinco linhas, do zero até o quatro.
+O segundo, quatro colunas, do zero até o três.
+Exemplo abaixo
+
+0 1 2 3
+0 1 2 3
+0 1 2 3
+0 1 2 3
+0 1 2 3

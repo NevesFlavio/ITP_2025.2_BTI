@@ -1,0 +1,11 @@
+Irá se formar uma sequência numérica de linhas e colunas, mas estilo pirâmide. O usuário irá informar um valor, e a sequência se formará começando do 1 até o valor informado.
+
+por Exemplo
+
+valor informado: 5
+
+1 
+1 2 
+1 2 3 
+1 2 3 4
+1 2 3 4 5

@@ -1,0 +1,10 @@
+Esse programa criará uma sequência de caracteres aninhados mas que se somam os valores da linha de i e da coluna de j. 
+Por exemplo:
+
+n = 5
+
+2 3 4 5 6
+3 4 5 6 7
+4 5 6 7 8
+5 6 7 8 9
+6 7 8 9 10f

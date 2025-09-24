@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main()
+{
+    float p, q;
+    
+    printf("Digite o preco de venda p: ");
+    scanf("%f", &p);
+    
+    printf("Digite o preco de producao q: ");
+    scanf("%f", &q);
+
+    float melhorRazao = 0.0;
+    int melhorX = 0, melhorY = 0;
+
+    for (int x = 2; x <= 10; x++)
+    {
+        for (int y = 1; y < x; y++)
+        {
+            float receita = y * p;
+            float custo = x * q;
+            if (receita >= custo)
+            {
+                float razao = (float)x / y;
+                if (razao > melhorRazao)
+                {
+                    melhorRazao = razao;
+                    melhorX = x;
+                    melhorY = y;
+                }
+            }
+        }
+    }
+
+    if (melhorX > 0)
+    {
+        printf("\nA melhor promocao eh: leve %d pague %d\n", melhorX, melhorY);
+    }
+    else
+    {
+        printf("\nNao ha promocao possivel sem prejuizo.\n");
+    }
+
+    return 0;
+}

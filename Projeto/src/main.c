@@ -25,10 +25,10 @@ void mostrarJogo(int lin, int col, char mapa[lin][col]) {                   //Fu
     }
 }
 
-void colocarBombas(int lin, int col, int bombas[lin][col]) {                //Função de colocar as bombas - em construção
+void colocarMinas(int lin, int col, int minas[lin][col]) {                //Função de colocar as minas - em construção
     for (int i = 1; i < lin; i++) {
         for (int j = 1; j < col; j++) {
-            bombas[i][j] = 0; 
+            minas[i][j] = 0; 
         }
     }
 }
@@ -47,13 +47,13 @@ do                                                                          //Es
     scanf("%d", &opcao);
 
     
-        if (opcao == 1) {
+        if (opcao == 1) {                                                   //Tamanho do básico 9x9
         lin = 10;
         col = 10;
-    } else if (opcao == 2) {
+    } else if (opcao == 2) {                                                //Tamanho do intermediário 16x16
         lin = 17;
         col = 17;
-    } else if (opcao == 3)
+    } else if (opcao == 3)                                                  //Tamanho do avançado 24x24
     {
         lin = 25;
         col = 25;
@@ -62,17 +62,16 @@ do                                                                          //Es
        
     }
     
-    } while (opcao != 1 && opcao != 2 && opcao != 3);
+    } while (opcao != 1 && opcao != 2 && opcao != 3);                       //Tratamento para só continuar se escolher uma das opções corretas
     
     
 
   
     char mapa[lin][col];
-    int bombas[lin][col];
+    int minas[lin][col];
 
     inicializarJogo(lin, col, mapa);
-    colocarBombas(lin, col, bombas);
-
+    colocarMinas(lin, col, minas);
     mostrarJogo(lin, col, mapa);
 
     return 0;

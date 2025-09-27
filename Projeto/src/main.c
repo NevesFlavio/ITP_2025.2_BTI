@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 
-void inicializarJogo(int lin, int col, char mapa[lin][col]) {
+void inicializarJogo(int lin, int col, char mapa[lin][col]) {               //Função de inicializar o mapa
     for (int i = 1; i < lin; i++) {
         for (int j = 1; j < col; j++) {
-            mapa[i][j] = '_';  
+            mapa[i][j] = '-';  
         }
     }
 }
 
-void mostrarJogo(int lin, int col, char mapa[lin][col]) {
-    printf("   ");
+void mostrarJogo(int lin, int col, char mapa[lin][col]) {                   //Função de mostrar o mapa para o usuário
+    printf("    ");
     for (int j = 1; j < col; j++) {
         printf("%2d ", j);
     }
@@ -25,7 +25,7 @@ void mostrarJogo(int lin, int col, char mapa[lin][col]) {
     }
 }
 
-void colocarBombas(int lin, int col, int bombas[lin][col]) {
+void colocarBombas(int lin, int col, int bombas[lin][col]) {                //Função de colocar as bombas - em construção
     for (int i = 1; i < lin; i++) {
         for (int j = 1; j < col; j++) {
             bombas[i][j] = 0; 
@@ -37,26 +37,26 @@ int main() {
     int lin, col;
     int opcao;
 
-do
+do                                                                          //Estrutura para o menu de dificuldade
     {
     printf("Escolha o nivel de dificuldade:\n");
     printf("1 - Basico (9x9)\n");
     printf("2 - Intermediario (16x16)\n");
-    printf("3 - Avancado (16x30)\n");
+    printf("3 - Avancado (24x24)\n");
     printf("Opcao: ");
     scanf("%d", &opcao);
 
     
         if (opcao == 1) {
-        lin = 9;
-        col = 9;
+        lin = 10;
+        col = 10;
     } else if (opcao == 2) {
-        lin = 16;
-        col = 16;
+        lin = 17;
+        col = 17;
     } else if (opcao == 3)
     {
-        lin = 16;
-        col = 30;
+        lin = 25;
+        col = 25;
     } else {
         printf("Opcao invalida. Escolha novamente:\n");
        

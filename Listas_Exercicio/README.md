@@ -2,7 +2,7 @@
 
 ## Projeto desenvolvido no Sistema Operacional Windows 11
 
-## Compilador utilizado: GCC versão 15.2.0
+## Compilador utilizado: GCC versão 10.3.0
 
 ## IDE utilizada: Visual Studio Code
 

@@ -1,15 +1,16 @@
-# Introdução a Técnicas de Programação - Unidade 1
-**Aluno**: Flávio Henrique de Oliveira Neves
-**Matrícula**: 20250052826
-**Período**: 2025.2
+# Introdução às Técnicas de Programação - Unidade 1
+
+- **Aluno**: Flávio Henrique de Oliveira Neves
+- **Matrícula**: 20250052826
+- **Período**: 2025.2
 ## 📁 Estrutura do Projeto
 - `Projeto/`: Projeto principal da unidade
 - `Listas_Exercicio/`: Soluções das listas de exercícios
 - `README.md`: Este arquivo
 ## 🚀 Projeto: Jogo Campo Minado (Versão Texto)
 **Descrição**: Este projeto se propõe a fazer um jogo estilo Campo Minado, um clássico dos primeiros Sistemas Operacionais Windows, mas utilizando a linguagem '.c'. O layout será inteiramente construído por caracteres e visualizado através de um Terminal, via CLI.
-**Repositório**: https://github.com/NevesFlavio/Neves-Flavio-itp-u1-2025-2
-**Vídeo de Demonstração**: [Link para o vídeo]
+- **Repositório**: https://github.com/NevesFlavio/Neves-Flavio-itp-u1-2025-2
+- **Vídeo de Demonstração**: [Link para o vídeo]
 ### Funcionalidades Implementadas:
 - Inicializar o jogo;
 - Mostrar o mapa na tela;

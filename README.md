@@ -56,6 +56,6 @@
 ## 🎯 Principais Aprendizados
 A noção da utilização de funções para cada 'demanda', a forma de implementação das condicionais para possibilitar escolhas por parte do usuário, a organização do código de maneira a facilitar futuras alterações e a construção de um projeto que se baseia no alicerce organizadamente bem elaborado.
 ## 🔧 Ambiente de Desenvolvimento
-- **SO**: [Windows 11]
-- **Compilador**: GCC versão [10.3.0]
-- **Editor**: [Visual Studio Code - VSCode]
+- **SO**: Windows 11
+- **Compilador**: GCC versão 10.3.0
+- **Editor**: Visual Studio Code - VSCode

@@ -10,7 +10,7 @@
 ## 🚀 Projeto: Jogo Campo Minado (Versão Texto)
 **Descrição**: Este projeto se propõe a fazer um jogo estilo Campo Minado, um clássico dos primeiros Sistemas Operacionais Windows, mas utilizando a linguagem '.c'. O layout será inteiramente construído por caracteres e visualizado através de um Terminal, via CLI.
 - **Repositório**: https://github.com/NevesFlavio/Neves-Flavio-itp-u1-2025-2
-- **Vídeo de Demonstração**: [Link para o vídeo]
+- **Vídeo de Demonstração**: https://youtu.be/znbHU01J10I
 ### Funcionalidades Implementadas:
 - Inicializar o jogo;
 - Mostrar o mapa na tela;
